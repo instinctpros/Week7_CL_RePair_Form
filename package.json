@@ -1,0 +1,10 @@
+{
+  "name": "repair-reflection-wall",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RE:PAIR — Connections Lab Week 7: Express, POST requests and lowdb",
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=22" },
+  "dependencies": { "express": "^5.1.0", "lowdb": "^7.0.1" }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RE:PAIR — A practice in conscious choice</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><a class="wordmark" href="/">RE:PAIR<span>a practice in conscious choice</span></a><a class="guide-link" href="https://instinctpros.github.io/Re-Pair_CritEx_week5_Project_1_prototype/" target="_blank" rel="noopener">Explore the guide ↗</a></header>
+  <main>
+    <section class="intro"><p class="eyebrow">FIELD NOTES / 001</p><h1>What are you<br>ready to <em>reconsider?</em></h1><p class="lede">A familiar habit. An inherited belief. A story you keep telling yourself. Pause, trace where it comes from, and choose one small repair.</p><p class="sequence">NOTICE <span>→</span> REVEAL <span>→</span> REPAIR</p></section>
+    <section class="workspace" aria-labelledby="form-title">
+      <div class="margin-note"><p class="eyebrow">YOUR PRACTICE</p><h2 id="form-title">Make room<br>for a different choice.</h2><p>You are not broken.<br>This is an invitation to pay attention.</p><span class="big-arrow" aria-hidden="true">↘</span></div>
+      <form id="reflection-form">
+        <div class="field"><span class="step">01</span><div><label for="notice">NOTICE</label><p id="notice-help">What habit, belief, or expectation have you noticed?</p><textarea id="notice" name="notice" required maxlength="500" aria-describedby="notice-help" placeholder="I notice that I…"></textarea></div></div>
+        <div class="field"><span class="step">02</span><div><label for="reveal">REVEAL</label><p id="reveal-help">Where might it come from? Who or what reinforces it?</p><textarea id="reveal" name="reveal" required maxlength="500" aria-describedby="reveal-help" placeholder="I learned this from…"></textarea></div></div>
+        <div class="field"><span class="step">03</span><div><label for="repair">REPAIR</label><p id="repair-help">What small, intentional action could you try instead?</p><textarea id="repair" name="repair" required maxlength="500" aria-describedby="repair-help" placeholder="One thing I can try is…"></textarea></div></div>
+        <p class="sharing-note">Your reflection will appear on the shared wall below. No name required. Share only what you want others to read.</p>
+        <button id="save" type="submit">Save my reflection <span aria-hidden="true">↗</span></button>
+        <p id="save-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="wall" aria-labelledby="wall-title"><div class="wall-heading"><div><p class="eyebrow">THE SHARED PRACTICE</p><h2 id="wall-title">Small repairs.<br>Different possibilities.</h2></div><button id="refresh" class="text-button" type="button">Refresh wall ↻</button></div><p id="wall-status" role="status" aria-live="polite">Loading reflections…</p><div id="reflections" class="cards"></div></section>
+  </main>
+  <footer><span>RE:PAIR / KRYSTAL JOY BROWN</span><span>A manual for reclaiming your attention.</span></footer>
+</body>
+</html>
